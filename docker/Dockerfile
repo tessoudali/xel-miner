@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.16
 ENV XEL_DIR=/xel-miner
 
 RUN apk add --update cmake build-base openssl-dev git dos2unix libcurl curl-dev bash
